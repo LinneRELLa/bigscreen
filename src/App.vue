@@ -9,9 +9,10 @@
       <div id="time">当前时间:{{timeext}}</div>
 
     </div>
+
     <div id="section">
-      <div id="container"></div>
-    
+     
+     <div id="container"></div>
     <div id="left">
      <square/>
       <lineC/>
@@ -101,8 +102,19 @@ sector,
 
 
 </script>
+<style>
+  html,body{
+margin: 0 ;
+   width: 1920px;
+height: 1080px;
+     
 
+}
+
+</style>
 <style lang="less" scoped>
+
+
 .middle{
    position:absolute;
       left: 50%;
@@ -114,23 +126,16 @@ sector,
 }
 *{
 
-  margin: 0;
+  margin: 0 !important;
   box-sizing: border-box;
-}
-html,body{
-
-   width: 1920px;
-   height: 100%;
-     overflow: hidden;
-
 }
 
 #app {
 
   
-  width: 1920px;
-
-  height: 100%;
+  width: 100%;
+  overflow: hidden; 
+ height: 100%;
   display: flex;
   flex-direction: column;
    
@@ -140,9 +145,8 @@ html,body{
   .opa();
     width: 100%;
     height: 100px;
-    position: absolute;
-    top: 0;
- 
+    position: relative;
+    
     color:white;
     #title{
       font-size:35px;
@@ -158,13 +162,13 @@ html,body{
     }
   }
   #section{
-    
+    min-width: 1680px;
     z-index: 2;
     display: flex;
       width: 100%;
-    min-width: 1024px;
-    position: absolute;
-    top: 100px;
+    
+    position: relative;
+   height: calc(100% - 100px)
 
   }
   #content{
@@ -196,10 +200,15 @@ html,body{
      flex: 2;
       height: 100%;
            z-index:1;
-
+     display: flex;
+     flex-direction:column;
+     justify-content: space-between;
 
     }
     #right{ z-index:4;
+         display: flex;
+     flex-direction:column;
+     justify-content: space-between;
        .opa();
      
          flex: 2;
