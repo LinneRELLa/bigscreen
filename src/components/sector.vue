@@ -2,6 +2,7 @@
 	
 
 	<div ref="sector" class="echarts"></div>
+
 </template>
 
 

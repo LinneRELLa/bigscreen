@@ -2,6 +2,7 @@
 	
 
 	<div ref="lineC" class="echarts"></div>
+
 </template>
 
 

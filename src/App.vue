@@ -129,7 +129,7 @@ html,body{
 
   
   width: 1920px;
-  
+
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -192,7 +192,7 @@ html,body{
       
       
       
-       
+       position:relative;
      flex: 2;
       height: 100%;
            z-index:1;

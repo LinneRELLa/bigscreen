@@ -1,8 +1,8 @@
 <template>
 	
-<div>
+
 	<div ref="square" class="echarts"></div>
-  </div>
+
 </template>
 
 
