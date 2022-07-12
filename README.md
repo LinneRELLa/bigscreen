@@ -17,3 +17,6 @@ yarn build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+![image](https://github.com/LinneRELLa/bigscreen/blob/master/demo/1.png)
